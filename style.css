@@ -1,0 +1,319 @@
+.navbar{
+    height:100px;
+    /* width:100%; */
+    background-color: #008080;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+
+}
+.logo{
+    height:95px;
+    width:95px;
+    background-image: url(decorlogo.png);
+    background-size: cover;
+}
+.search{
+    height: 34px;
+    width:400px;
+    background-color:  #F5F5F5 ;
+    color:grey;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    border-radius: 4rem;
+    border:none;
+}
+.sicon{
+    height:34px;
+    width:30px;
+    background-color: #F4C430;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    border-radius: 4rem;
+}
+
+.input{
+    height:32px;
+    width:370px;
+    background-color: #F5F5F5;
+    color:black;
+    border-color:transparent;
+    border-radius: 4rem;
+}
+.cart{
+    height:50px;
+    width:80px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    background-color: transparent;
+} 
+.but{
+    height:50px;
+    width:80px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    background-color: transparent; 
+    border: none;
+    font-size: 1.2rem;
+}
+#carticon{
+    height:100px;
+    width:80px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+}
+.hero{
+    height:800px;
+    /* background-color: #F5F5F5; */
+    background-size: cover;
+    display:flex;
+    /* align-items:center; */
+    /* align-content: center; */
+    animation-name: heros;
+    animation-duration: 2s;
+    animation-delay: 0s; 
+    animation-timing-function: ease-out; 
+    animation-iteration-count:infinite;
+}
+@keyframes heros {
+    from{
+        background-color: white;
+    }
+    to{
+        background-image: url(img11.jpg);
+        transform: translateX(200px);
+    }
+}
+@keyframes line{
+    from{
+        position: relative;
+    }
+    to{
+        transform: translateX(-240px);
+        background-color: white;
+        /* margin-left:200px; */
+    }
+}
+.herof{
+    /* background-color: #F5F5F5; */
+    height:200px;
+    margin-top:30px;
+    margin-left:50px;
+    display:flex;
+    animation-name: line;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+
+}
+.banner{
+    height:600px;
+    background-size: cover;
+    display:flex;
+    animation-name: heros;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    /* animation-timing-function: ease-in; */
+    animation-iteration-count: infinite;
+    background-color: #F5F5F5;
+
+}
+.linef{
+    height:100px;
+    width:auto;
+    color:#008080;
+    text-decoration: none;
+    text-align: left;
+    text-shadow: #F4C430;
+    /* margin-top: 100px;
+    margin-left: 100px; */
+    font-size: 3rem;
+}
+.lines{
+    height:100px;
+    width:auto;
+    color:#F4C430;
+    text-decoration: none;
+    text-align: left;
+    text-shadow: #F4C430;
+    /* margin-top: 150px;
+    margin-left: 0px; */
+    font-size: 4rem;
+    /* margin-right:300px; */
+}
+.content{
+    height:350px;
+    background-color: #008080;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.heading{
+    height:150px;
+    color:black;
+    display:flex;
+    background-color: #008080;
+    align-content: center;
+    justify-content: center;
+
+}
+#huge{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box1{
+    height:300px;
+    width:300px;
+    background-color: #F4C430;
+    display:flex; 
+    justify-content: space-around;
+    align-content: space-around;
+}
+.picf{
+    height:300px;
+    width:300px;
+    background-image: url(img1.jpg);
+    background-size: cover;
+}
+.pics{
+    height:300px;
+    width:300px;
+    background-image: url(img10.jpg);
+    background-size: cover;
+}
+.pict{
+    height:300px;
+    width:300px;
+    background-image: url(img8.jpeg);
+    background-size: cover;
+}
+.picfo{
+    height:300px;
+    width:300px;
+    background-image: url(img7.jpeg);
+    background-size: cover;
+}
+.learnmore{
+    height:100px;
+    background-color: #008080;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.butt{
+    height:50px;
+    width:100px;
+    color:black;
+    border-width: 2px;
+    border:black;
+    background-color: rgb(54, 111, 92);
+    border-radius: 20px;
+}
+.abt{
+    height:100px;
+    background-color: #F4C430;
+    color:#008080;
+    font-size: 1.6rem;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.abtus{
+    height:170px;
+    background-color: #F4C430;
+    color:#008080;
+    font-size: 1.3rem;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.lmore{
+    height:70px;
+    background-color:#F4C430;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.last{
+    width:150px;
+}
+.buttt{
+    height:30px;
+    width:100px;
+    color:black;
+    border-width: 2px;
+    border:black;
+    background-color: rgb(54, 111, 92);
+    border-radius: 20px;
+}
+.services{
+    height:250px;
+    background-color: #F5F5F5;
+    color:#008080;
+    display:flex;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+.pad{
+    height:200px;
+    width:250px;
+    color:black;
+
+}
+.butt:hover{
+    box-shadow: 5px 3px 3px #F5F5F5;
+    font-size: 1rem;
+    color:#F4C430;
+}
+.buttt:hover{
+    box-shadow: 5px 3px 3px #F4C430;
+    font-size: 1rem;
+    color:#F4C430;
+
+}
+.brandname{
+    height:150px;
+    display:flex;
+    background-color: #008080;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.icon{
+    height: 145px;
+    width:145px;
+    background-image: url(decorlogo.png);
+    background-size: cover; 
+    animation-name:rotateanimate ;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotateanimate {
+    from{ 
+        height:145px;
+        width:145px; 
+    }
+    to{
+        height:100px;
+        width:100px;
+    }
+}
+
+
+
